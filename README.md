@@ -155,9 +155,13 @@ If `inUTC` is set to true, it will instead search the specified date from 0 to 2
 
 ## Changelog
 
+#### 1.8.2 &mjaybo; Sep 16, 2020
+
+- Added siderealTime to `getPosition` and `getMoonPosition`.
+
 #### 1.8.1 &mjaybo; Sep 15, 2020
 
-- Added ra and dec to `getPosition` and `getMoonPosition`.
+- Added ra and dec and siderealTime to `getPosition` and `getMoonPosition`.
 
 #### 1.8.0 &mdash; Dec 22, 2016
 
