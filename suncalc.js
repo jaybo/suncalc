@@ -94,7 +94,8 @@ SunCalc.getPosition = function (date, lat, lng) {
         azimuth: azimuth(H, phi, c.dec),
         altitude: altitude(H, phi, c.dec),
         ra: c.ra,  // jaybo added
-        dec: c.dec
+        dec: c.dec,
+        siderealTime: H
     };
 };
 
@@ -222,7 +223,8 @@ SunCalc.getMoonPosition = function (date, lat, lng) {
         distance: c.dist,
         parallacticAngle: pa,
         ra: c.ra,  // jaybo added
-        dec: c.dec
+        dec: c.dec,
+        sidearealTime: H
     };
 };
 
